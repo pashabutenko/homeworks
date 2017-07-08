@@ -1,0 +1,58 @@
+body {
+	font-family: Arial, Tahoma, serif;
+	font-size: 14px;	 
+}
+
+.container {
+	width: 600px;
+	padding: 10px;
+	
+}
+
+.foto{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 34px;
+	text-transform: uppercase;
+}
+
+h2{
+	text-align: left: ;;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+table {
+	margin-top: 22px;
+	width: 350px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table td {
+	border: 1px solid black;
+	padding: 10px;
+}
+table tr:hover {
+	background:	#BDB76B;
+}
+p{
+	margin-left: 10px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: green;
+}
+a:visited {
+	color: red;
+}
+a:active {
+	color: yellow;
+}
