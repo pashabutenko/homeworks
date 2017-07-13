@@ -1,1 +1,208 @@
-
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homeworks</title>
+</head>
+<body>
+    <p>Задание №1 <br>
+        <?php
+        $name = Pavel;
+        ?>
+    </p><br>
+    
+    <p>Задание №2
+        <?php
+        $age = 26;
+        ?>
+    </p><br>
+    
+    <p>Задание №3
+        <?php
+        echo 'Меня зовут: $name';
+        ?>
+    </p><br>
+    <p>Задание №4
+        <?php
+        echo 'Мне:  $age.  лет';
+        ?>
+    </p><br>
+    
+    <p>Задание №5
+        <?php
+        $age = 26;
+        if ($age >= 18 or $age <= 59) {
+        echo 'Вам еще работать и работать';
+        }?>
+    </p><br>
+    
+    <p>Задание №6
+        <?php
+        $age = 60;
+        if ($age > 59) {
+        echo 'Вам пора на пенсию';
+        }?>    
+    </p><br>
+    
+    <p>Задание №7
+        <?php
+        $age = 16;
+        if ($age > 0 and $age <= 17 ) {
+        echo 'Вам еще рано работать';
+        }?>  
+    </p><br>
+    
+    <p>Задание №8
+        <?php
+        $age = -26.;
+        if ($age < 0 ) {
+        echo 'Неизвестный возраст';
+        }?>   
+    </p><br>
+    
+    <p>Задание №9
+        <?php
+        $day = 21;
+        ?> 
+    </p><br>
+    
+    <p>Задание №10
+        <?php
+        $day = 3;
+        switch ($day) {
+        case ($day >=1 and $day <=5): echo "Это рабочий день"; break;
+        }?> 
+    </p><br>
+        
+    <p>Задание №11
+        <?php
+        $day = 6;
+        switch ($day) {
+        case ($day >=6 and $day <=7): echo "Это выходной день"; break;
+        }?> 
+    </p><br>
+    
+    <p>Задание №12
+        <?php
+        $day = 8;
+        switch ($day) {
+        case ($day >1 and $day >7): echo "Неизвестный день"; break;
+        }?> 
+    </p><br>
+    
+    <p>Задание №13
+        <?php
+        $s=1000;
+        $t=10;
+        echo "Скорость авто = $s/$t = " . $s/$t .' км/час;<br>';
+        echo "Скорость авто = $s/$t*100/(60*60) = " . ($s/$t*100/(60*60)) .' м/сек;';
+        ?>
+    </p><br>
+    
+    <p>Задание №14 <br>
+        <?php 
+        $foo = 'bar';
+        $bar = 10 ;
+        $foo = $bar;
+        echo $foo;
+        ?>
+    </p><br>
+    
+     <p>Задание №15 <br></p>
+         
+         Не сделал
+         
+     <p>Задание №16 <br></p>
+          <?php
+          $a = 5;
+          $b = 17;
+          echo max ($a, $b);
+          ?>
+     <p>Задание №17 <br></p>
+           <?php
+           $a = '78';
+           $b = 78;
+           if ($a==$b){
+            echo "равны";}    
+           else {
+            echo "не равны";}            
+            ?>
+            
+     <p>Задание №18 <br></p>
+            <?php
+           $a = '78';
+           $b = 78;
+           if ($a===$b){
+            echo "эквивалентны";}    
+           else {
+            echo "не эквивалентны";}            
+            ?>
+            
+     <p>Задание №19 <br></p>
+         <?php
+           $a = '78';
+           $b = 78;
+           var_dump($a==$b);
+           ?>
+           
+     <p>Задание №20 <br></p>
+          <?php
+            $foo = 20;
+            $bar = (boolean)$foo; //приставка (bool), (boolean) перед переменной приводит к boolean (если это не 0 то true)
+            var_dump ($bar); 
+          ?>
+          
+     <p>Задание №21
+         <?php
+            $foo = 0;
+            $bar = (boolean)$foo; // 0 всегда false
+            var_dump ($bar); 
+          ?>
+     <br></p>
+     
+     <p>Задание №22
+         <?php
+            $foo = -20;
+            $bar = (boolean)$foo; //приставка (bool), (boolean) перед переменной приводит к boolean (если это не 0 то true)
+            var_dump ($bar); 
+          ?>
+     <br></p>
+     
+     <p>Задание №23 
+         <?php
+         echo 'Hello world <br>' ;
+         print 'Hello world <br>';
+         printf ('Hello world');
+         ?>
+     <br></p>
+     
+     <p>Задание №24 
+         <?php
+         // это однострочный комментарий
+         /* это многострочный
+         комментарий */
+         # комментарий в стиле оболочки Unix
+         ?>
+     <br></p>
+     
+     <p>Задание №25 
+         
+     <br></p>
+     
+     <p>Задание №26 <br>
+         <?php
+         define('DAYS_COUNT',7);
+            echo DAYS_COUNT ."<br>" ;
+         const MONTH_COUNT=12;
+            echo MONTH_COUNT;
+            ?>
+     <br></p>
+     
+      <p>Задание №27 <br>
+         <?php
+         /*win+cmd
+         Выполнить в консоли: php.exe адрес_файла/<ФАЙЛ php>*/
+         ?>
+     <br></p>
+</body>
+</html>
