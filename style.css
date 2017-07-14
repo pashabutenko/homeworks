@@ -1,19 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 body {
-	font-family: Arial, Tahoma, serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 14px;	 
 }
 
 .container {
-	width: 600px;
+	position: relative;
+	width: 650px;
 	padding: 10px;
-	
+	background: rgb(241,241,241);
+	border: 1px solid grey;	
 }
 
 .foto{
 	float: left;
+	position: absolute;
+	left: 430px;
+	top: 107px;
 	width: 200px;
 	height: 200px;
 	margin-right: 20px;
+}
+ul {
+	list-style: none;
+}
+ul ul  {
+	list-style: square;
 }
 
 h1 {
@@ -23,13 +35,13 @@ h1 {
 }
 
 h2{
-	text-align: left: ;;
+	text-align: left; 
 	font-size: 18px;
 	text-transform: uppercase;
 }
 
 table {
-	margin-top: 22px;
+	margin-top: 15px;
 	width: 350px;
 	border: 1px solid black;
 	border-collapse: collapse;
@@ -39,12 +51,13 @@ table td {
 	padding: 10px;
 }
 table tr:hover {
-	background:	#BDB76B;
+	background:	#999;
 }
 p{
 	margin-left: 10px;
 }
 a {
+	text-align: center;
 	text-decoration: none;
 }
 a:hover {
