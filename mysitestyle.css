@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+body, p, div{
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+header {
+	position: relative;
+	height: 100px;
+	background: lightblue;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 20px;
+}
+header .logo {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 90px;
+	height: 90px;
+	background: blue;
+	border-radius: 20px;
+}
+.logo img {
+	width: 90px;
+	height: 90px;
+
+}
+.site-name {
+	
+	font-size: 58px;
+}
+nav {
+
+	height: 50px;
+	background: lightgreen;
+	border-radius: 20px;
+}
+nav .main-nav li {
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 35px;
+
+}
+nav .main-nav:first-child {
+	margin-left: 100px;
+}
+
+.main-nav a,
+.aside-nav a {
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: gold;
+}
+a:active {
+	color: red;
+}
+a:visited {
+	color: blue;
+}
+.aside-nav { 
+	padding: 15px;
+	margin-right: 0 15px;
+	background: lightgreen;
+	margin-top: -50;
+	min-height: 250px;
+	float: left;
+	border-radius: 20px;
+}
+.aside-nav li{
+	margin-bottom: 15px;
+}
+.items{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;;
+}
+.items .item{
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+
+	margin: 15px;
+	width: 250px;
+	height: 250px;
+	background: yellow;
+	border-radius: 20px;
+	text-align: center;
+}
+.items .item h1{
+	margin: 0;
+	padding: 0;
+	font-style: 18px;
+}
+.items .item img {
+	width: 150px;
+	height: 150px;
+	background: orange;
+}
+.footer {
+	height: 100px;
+	background: darkred;
+	border-radius: 20px;
+}
+.footer .social-btn {
+	float: left;
+	line-height: 100px;
+	margin: 25px;
+	width: 40px;
+	height: 40px;
+	background: red;
+	border-radius: 20px;
+}
+.footer .copyright {
+	float: right;
+	height: 40px;
+	margin-top: 25px;
+	margin-right: 25px;
+	line-height: 100px; 
+	background: red;
+	border-radius: 20px;
+}
+.items .item button{
+ text-decoration:none; 
+ text-align:center; 
+ padding:5px 47px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:13px;
+ -moz-border-radius:13px; 
+ border-radius: 13px; 
+ font:18px 'Playfair Display', serif;; 
+ font-weight:bold; 
+ color:#fff0e5; 
+ background-color:orange; 
+ background-image: -moz-linear-gradient(top, #c7403b 0%, #a55619 100%); 
+ background-image: -webkit-linear-gradient(top, #c7403b 0%, #a55619 100%); 
+ background-image: -o-linear-gradient(top, #c7403b 0%, #a55619 100%); 
+ background-image: -ms-linear-gradient(top, #c7403b 0% ,#a55619 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradien
