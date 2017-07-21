@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="mysitestyle.css">
+	<meta charset="UTF-8">
+	<title>my site</title>
+</head>
+<body>
+	<header class="wrapper">
+		<div class="logo"><img src="#" alt="logo"></div>
+		<div class="site-name">site name</div>
+	</header>
+
+	<nav class="wrapper">
+		<ul class="main-nav">
+			<a href="#">
+				<li class="nav1"> главная</li>
+			</a>
+			<a href="#">
+				<li class="nav2"> товары</li>
+			</a>
+			<a href="#">
+				<li class="nav3">статьи</li>
+			</a>
+			<a href="#">
+				<li class="nav4">о нас</li>
+			</a>
+			<a href="#">
+				<li class="nav5">контакты</li>
+			</a>
+		</ul>
+	</nav>
+
+	<aside class="wrapper">
+		<ul class="aside-nav">
+			<a href="#">
+				<li class="nav1">главная</li>
+			</a>
+			<a href="#">
+				<li class="nav2">товары</li>
+			</a>
+			<a href="#">
+				<li class="nav3">статьи</li>
+			</a>
+			<a href="#">
+				<li class="nav4">о нас</li>
+			</a>
+			<a href="#">
+				<li class="nav5">контакты</li>
+			</a>
+		</ul>
+	</aside>
+
+	<section class="wrapper items">
+		<article class="item item1"><h1>Товар1</h1>
+		<img src="#" alt="" class="item1-img">
+		<p>Lorem ipsum dolor sit amet, </p>
+		<button sumbit="#">купить</button></article>
+		<article class="item item2"></article>
+		<article class="item item3"></article>
+		<article class="item item4"></article>
+		<article class="item item5"></article>
+		<article class="item item6"></article>
+		<article class="item item7"></article>
+		<article class="item item8"></article>
+		<article class="item item9"></article>
+		<article class="item item10"></article>
+		<article class="item item11"></article>
+		<article class="item item12"></article>
+	</section>
+
+	<footer class="wrapper footer ">
+		<div class="social">
+			<div class="social-btn fb">fb<a href="#"></a></div>
+			<div class="social-btn vk">vk<a href="#"></a></div>
+			<div class="social-btn inst">inst<a href="#"></a></div>
+		</div>
+		<div class="copyright"> designed by pb</div>
+	</footer>
+</body>
+</html>
